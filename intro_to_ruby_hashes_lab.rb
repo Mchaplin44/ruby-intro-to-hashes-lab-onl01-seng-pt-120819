@@ -1,5 +1,5 @@
 ikea = {:chair => 25, :table => 85, :mattress => 450}
-def new_hash do {|hash, key| block }
+def new_hash 
 end
 def key_for_min_value_my_try(name_hash)
   name_hash.key(name_hash.values.min)
